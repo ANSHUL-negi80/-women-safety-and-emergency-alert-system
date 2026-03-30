@@ -1,0 +1,167 @@
+/* ================= RESET ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ================= BODY BACKGROUND ================= */
+
+.gradient-bg{
+    min-height:100vh;
+    background: linear-gradient(135deg,#2c3e50,#8e44ad,#e84393);
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    border-radius:0 0 15px 15px;
+}
+
+/* ================= CARDS ================= */
+
+.card{
+    border-radius:20px;
+}
+
+/* Login Card */
+.login-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* Register Card */
+.register-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* Contact Card */
+.contact-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* SOS Card */
+.sos-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* History Card */
+.history-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* Admin Card */
+.admin-card{
+    border-radius:20px;
+    background:white;
+}
+
+/* Dashboard Card */
+.dashboard-card{
+    border-radius:20px;
+    background:white;
+    transition:0.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-5px);
+}
+
+/* ================= BUTTONS ================= */
+
+.btn{
+    border-radius:12px;
+    font-weight:600;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    transition:0.3s;
+}
+
+/* SOS Button */
+.sos-btn{
+    font-weight:bold;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.sos-btn:hover{
+    transform:scale(1.05);
+}
+
+/* ================= TABLES ================= */
+
+table{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table{
+    border-radius:15px;
+}
+
+/* ================= TEXT ================= */
+
+.text-white{
+    color:white;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+/* ================= FORM INPUT ================= */
+
+.form-control{
+    border-radius:12px;
+}
+
+.form-control:focus{
+    border-color:#8e44ad;
+    box-shadow:0 0 5px rgba(142,68,173,0.5);
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-card{
+    border-radius:25px;
+}
+
+/* ================= FEATURE CARDS ================= */
+
+.feature-card{
+    border-radius:18px;
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+    .card{
+        padding:20px !important;
+    }
+
+    .navbar-brand{
+        font-size:16px;
+    }
+
+    h1,h2,h3{
+        font-size:20px;
+    }
+
+}

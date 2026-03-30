@@ -1,0 +1,10 @@
+DB_HOST = "localhost"
+DB_USER = "root"
+DB_PASSWORD = "Anshul@1234"
+DB_NAME = "womensafety"
+EMAIL = "nanshul204@gmail.com"
+EMAIL_PASSWORD = "Anshul@1234"
+
+TWILIO_SID = "your_sid"
+TWILIO_TOKEN = "your_token"
+TWILIO_PHONE = "+1234567890"
